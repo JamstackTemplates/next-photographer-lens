@@ -72,3 +72,22 @@ and Pages never import/read it. Keep site.config.json, the form and workflow out
 light/dark captures after a fresh normal build and run node --test jamstacks/config.test.mjs separately.
 Each new template needs its own business-led layout/fonts/art and OG image; do not ship the neutral
 starter as a final design. Remove `plan/` and `.claude/skills/` before publishing a gallery template once reviewed.
+
+## File ownership (Silver Frame Photography)
+
+- `content/business.ts`: studio identity, email, phone, address, directions, map query, hours, enquiry checklist.
+- `content/galleries.ts`: galleries, featured flags (3–4), and 20 frames linked to `components/prints/registry.tsx`.
+- `content/packages.ts`: packages (`priceFrom`, availability, highlight) and add-ons; drives Home "Three rooms", `/packages/`, and JSON-LD `makesOffer`.
+- `content/diary.ts`: 2027 diary statuses (`2027-01`..`2027-12`) and static `diaryUpdated`.
+- `content/team.ts`: Mara & Theo bios, milestones, and numbered camera-bag flat-lay items.
+- `app/**/page.tsx`: editable page copy in visitor order; `components/` owns layout, SVG art and interactions.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

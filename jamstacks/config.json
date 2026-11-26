@@ -1,0 +1,19 @@
+{
+  "name": "Silver Frame Photography",
+  "description": "Image-first darkroom theme for photographers: drawn silver-gelatin prints pegged on a drying line, wedding, portrait and commercial galleries with a filter, packages as gallery wall labels, a 2027 date diary on a film-negative strip, an about page with a camera-bag flat lay, studio hours with an open-now status and a Jamstacks contact component for date and project enquiries.",
+  "tech": "next",
+  "type": "photographer",
+  "style": "lens",
+  "internal": false,
+  "components": [
+    "support-form"
+  ],
+  "configFile": "site.config.json",
+  "screenshots": {
+    "light": "jamstacks/home-light.jpg",
+    "dark": "jamstacks/home-dark.jpg",
+    "theme": {
+      "strategy": "media"
+    }
+  }
+}

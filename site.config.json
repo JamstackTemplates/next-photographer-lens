@@ -1,7 +1,8 @@
 {
-  "name": "Jamstacks starter",
-  "description": "A neutral Next.js foundation for Jamstacks websites.",
-  "domain": "",
+  "name": "Silver Frame Photography",
+  "description": "Silver Frame Photography: wedding, portrait and commercial photography from a darkroom-trained studio beside the Grove Arcade in Asheville, NC.",
+  "domain": "next-photographer-lens.jamstacks.net",
+  "timeZone": "America/New_York",
   "jamstacks": {
     "siteId": "",
     "cdnUrl": "https://cdn.jamstacks.net"

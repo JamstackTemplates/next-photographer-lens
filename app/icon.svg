@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#2457a7"/><path d="M17 20h30v24H17zM24 14v36M40 14v36" fill="none" stroke="#fff" stroke-width="4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Selenium-toned brown ground -->
+  <rect width="64" height="64" rx="12" fill="#7A3B22" />
+  <!-- Drying wire -->
+  <line x1="6" y1="14" x2="58" y2="14" stroke="#DEDAD1" stroke-width="2" />
+  <!-- Bulldog peg -->
+  <path d="M27 14 L28.5 7 H35.5 L37 14 Z" fill="#C4C0B7" stroke="#0E0D0C" stroke-width="1.5" />
+  <rect x="24" y="14" width="16" height="10" rx="1.5" fill="#DEDAD1" stroke="#0E0D0C" stroke-width="1.5" />
+  <!-- Tiny tilted silver ridge print -->
+  <g transform="rotate(-3 32 39)">
+    <rect x="13" y="21" width="38" height="33" fill="#F4F1EA" stroke="#0E0D0C" stroke-width="1.5" />
+    <rect x="17" y="25" width="30" height="25" fill="#C4C0B7" />
+    <path d="M17 39 Q27 33 36 37 T47 35 L47 50 L17 50 Z" fill="#6E6A64" />
+    <path d="M17 44 Q32 39 47 43 L47 50 L17 50 Z" fill="#2A2826" />
+  </g>
+</svg>
